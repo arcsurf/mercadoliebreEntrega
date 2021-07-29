@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const app = express();
 const publicPath = path.join(__dirname, 'public');
-const port = 3000;
+const PORT = 3000;
 
 app.use(express.static(publicPath));
 
@@ -18,6 +18,6 @@ app.get('/login', (req, res) => {
     res.sendFile(path.join(__dirname, './views/login.html'))
 })
 
-app.listen(process.env.port || 3000, function() {
-    console.log("El servidor se encuentra activo sobre la URL: http://localhost:" + port + " o sobre http://127.0.0.1:" + port)
+app.listen(process.env.PORT || 3000, function() {
+    console.log("El servidor se encuentra activo sobre la URL: http://localhost:" + PORT + " o sobre http://127.0.0.1:" + PORT)
 })
