@@ -1,7 +1,6 @@
 {
   "name": "clase0011-vivo",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +10,15 @@
   "dependencies": {
     "express": "^4.17.1",
     "normalize.css": "^8.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arcsurf/mercadoliebreEntrega.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/arcsurf/mercadoliebreEntrega/issues"
+  },
+  "homepage": "https://github.com/arcsurf/mercadoliebreEntrega#readme",
+  "description": ""
 }
